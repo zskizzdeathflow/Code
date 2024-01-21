@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tienda en línea</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a nuestra tienda en línea</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="producto">
+            <img src="producto1.jpg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p>Descripción del producto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="precio">$99.99</p>
+            <button>Comprar</button>
+        </section>
+
+        <section class="producto">
+            <img src="producto2.jpg" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p>Descripción del producto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="precio">$129.99</p>
+            <button>Comprar</button>
+        </section>
+    </main>
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar mensaje</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
