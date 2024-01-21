@@ -1,0 +1,15 @@
+/* 5 */
+body,
+html {
+  background-color: #ff0099
+}
+/* #3*/
+button {
+  background-color: #fff000;
+  
+}
+/* #4*/
+
+button:hover {
+  background-color: #ff0009;
+}
